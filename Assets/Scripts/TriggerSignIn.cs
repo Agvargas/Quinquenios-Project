@@ -13,11 +13,11 @@ public class TriggerSignIn : MonoBehaviour
             panelSignIn.SetActive(true);
         }
     }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            panelSignIn.SetActive(false);
-        }
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.tag == "Player")
+    //    {
+    //        panelSignIn.SetActive(false);
+    //    }
+    //}
 }
