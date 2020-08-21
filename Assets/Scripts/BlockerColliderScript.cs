@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BlockerColliderScript : MonoBehaviour
 {
@@ -16,8 +14,6 @@ public class BlockerColliderScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-
             popUp.SetActive(true);
-
     }
 }
