@@ -1,4 +1,3 @@
-NOMBRE COMPLETO;Cedula;Empresa;Ciudad;años Quinquenio;ID de Empleado;Tipo de documento;NOMBRE PARA VISUALIZAR
 Veronica Silva Muñoz;1037624774;Banco Caja Social;Medellin;5;10005420;CC;Verónica Silva Muñoz
 Alix Enriqueta Colina Neira;36537720;Colmena Seguros;Santa Marta;5;10005421;CC;Alix Enriqueta Colina Neira
 Alvaro Angel Piñeros;79342438;Banco Caja Social;Bogota;5;10005422;CC;Álvaro Ángel Piñeros
@@ -345,7 +344,7 @@ Omar Yulian Perdomo Garnica;1030630755;Colmena Seguros;Bogota;5;10005809;CC;Omar
 Ramiro Andres Rodriguez Otavo;1026285825;Banco Caja Social;Bogota;5;10005810;CC;Ramiro Andrés Rodríguez Otavo
 Sandra Johana Benitez Cristiano;1075672606;Banco Caja Social;Zipaquira;5;10005811;CC;Sandra Johana Benítez Cristiano
 Bryan Pacheco Rodriguez;1067930433;Colmena Seguros;Monteria;5;10005812;CC;Bryan Pacheco Rodríguez
-Jairo Andres Nova Montaña;79792464;Banco Caja Social;Bogota;5;10005813;CC;Jairo Andrés Nova Montaña
+Jairo Andres Nova Montana;79792464;Banco Caja Social;Bogota;5;10005813;CC;Jairo Andrés Nova Montaña
 Dora Mayerly Gutierrez Moreno;52913386;Colmena Seguros;Bogota;5;10005814;CC;Dora Mayerly Gutiérrez Moreno
 Katherine del Rosario Barrios Tano;1047379748;Fundacion Para El Desarrollo Y La Promocion Del Caribe;Cartagena;5;10005815;CC;Katherine del Rosario Barrios Tano
 Aida Luz Cantillos Lozano;1044424034;Banco Caja Social;Barranquilla;5;10005816;CC;Aida Luz Cantillos Lozano
