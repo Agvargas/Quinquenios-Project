@@ -15,9 +15,6 @@ public class GameController : MonoBehaviour
         {
             dataPlayers[i] = dataList[i].Split(';');
         }
-
-        //Instantiate(Resources.Load<GameObject>("Sprites/5/Adriana Grajales Ochoa"));
-        //Resources.Load<Sprite>("Sprites/5/Adriana Sofia Parra Marin");
     }
 }
 
