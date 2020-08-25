@@ -7,6 +7,7 @@ public class ContentHeightScript : MonoBehaviour
     public GameObject imagePrefab;
     public GameController data;
     public TMP_InputField searchText;
+    public Image mainImage;
 
     public float height;
     private float childs;
@@ -39,6 +40,7 @@ public class ContentHeightScript : MonoBehaviour
                         default:
                             break;
                     }
+                    photo.GetComponent<ImageScript>().contentScript = GetComponent<ContentHeightScript>();
                 }
             }
             else if (data.dataPlayers[i][4] == year)
@@ -46,6 +48,7 @@ public class ContentHeightScript : MonoBehaviour
                 GameObject photo= Instantiate(imagePrefab, transform);
                 photo.name = data.dataPlayers[i][0];
                 photo.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/" + year + "/" + data.dataPlayers[i][0]);
+                photo.GetComponent<ImageScript>().contentScript = GetComponent<ContentHeightScript>();
             }
         }
     }
@@ -72,6 +75,7 @@ public class ContentHeightScript : MonoBehaviour
 
     public void Search()
     {
+        Refresh();
         for (int i = 0; i < childs; i++)
         {
             if (!GetComponent<Transform>().GetChild(i).gameObject.name.Contains(searchText.text))
@@ -79,5 +83,10 @@ public class ContentHeightScript : MonoBehaviour
                 GetComponent<Transform>().GetChild(i).gameObject.SetActive(false);
             }
         }
+    }
+
+    public void UpdateImage(string nameImage)
+    {
+        mainImage.sprite= Resources.Load<Sprite>("Sprites/" + year + "/" + nameImage);
     }
 }
