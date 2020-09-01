@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 9ab81dbe517797c4ea4b4cd662d9a8e1,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1752,7 +1752,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb8748310e229a4c9510d92a416e7c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataText: {fileID: 4900000, guid: 1b188ca2139cb694a9c823bc02884566, type: 3}
   userID: 0
 --- !u!1 &49274048
 GameObject:
@@ -25942,7 +25941,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561096783}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -29.72}
+  m_LocalPosition: {x: 0, y: 0, z: -29.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 548285340}

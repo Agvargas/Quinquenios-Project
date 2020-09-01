@@ -12,8 +12,6 @@ public class ContentHeightScript : MonoBehaviour
     public float height;
     private float childs;
     
-    
-
     public string year;
 
     private void Awake()
@@ -26,20 +24,7 @@ public class ContentHeightScript : MonoBehaviour
                 {
                     GameObject photo = Instantiate(imagePrefab, transform);
                     photo.name = data.dataPlayers[i][0];
-                    switch (data.dataPlayers[i][4])
-                    {
-                        case "30":
-                            photo.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/30/" + data.dataPlayers[i][0]);
-                            break;
-                        case "35":
-                            photo.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/35/" + data.dataPlayers[i][0]);
-                            break;
-                        case "40":
-                            photo.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/40/" + data.dataPlayers[i][0]);
-                            break;
-                        default:
-                            break;
-                    }
+                    photo.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/" + year + "/" + data.dataPlayers[i][0]);
                     photo.GetComponent<ImageScript>().contentScript = GetComponent<ContentHeightScript>();
                 }
             }
@@ -88,5 +73,6 @@ public class ContentHeightScript : MonoBehaviour
     public void UpdateImage(string nameImage)
     {
         mainImage.sprite= Resources.Load<Sprite>("Sprites/" + year + "/" + nameImage);
+
     }
 }
