@@ -7,6 +7,7 @@ public class CapturaCamara : MonoBehaviour
 {
 
     public WebCamTexture backCam;
+    public bool preImage=false;
 
    // public Image img;
 
@@ -29,7 +30,12 @@ public class CapturaCamara : MonoBehaviour
         }*/
     }
 
-    
+    private void OnDisable()
+    {
+        backCam.Stop();
+    }
+
+
 
     private void Update()
     {
@@ -43,8 +49,11 @@ public class CapturaCamara : MonoBehaviour
     void ActivarCamara()
     {
         backCam = new WebCamTexture();
-        
-        GetComponent<Renderer>().material.mainTexture = backCam;
+
+        if (preImage)
+            GetComponent<RawImage>().material.mainTexture = backCam;
+        else
+            GetComponent<Renderer>().material.mainTexture = backCam;
 
         backCam.Play();
     }
