@@ -1,4 +1,4 @@
-﻿using RenderHeads.Media.AVProMovieCapture;
+﻿//using RenderHeads.Media.AVProMovieCapture;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +6,7 @@ using UnityEngine;
 public class ControlCapturaVideo : MonoBehaviour
 {
 
-    public CaptureFromScreen infoCaptura;
+    //public CaptureFromScreen infoCaptura;
 
     void Update()
     {
@@ -23,13 +23,14 @@ public class ControlCapturaVideo : MonoBehaviour
 
     public void ComenzarAGrabar()
     {
-        infoCaptura.Start();
+        //infoCaptura.Start();
         Debug.Log("Empezo a grabar");
-        infoCaptura.StartCapture();
+        //infoCaptura.StartCapture();
     }
 
     public void PararDeGrabar()
     {
-        infoCaptura.StopCapture();
+        //infoCaptura.StopCapture();
+        Debug.Log("Termino de grabar");
     }
 }
