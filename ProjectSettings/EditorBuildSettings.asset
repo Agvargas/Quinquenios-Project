@@ -5,10 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main Quinquenios.unity
     guid: af31b5d73ba511f448e712ab687a68df
-  - enabled: 1
-    path: Assets/SWAN Dev/ScreenshotHelper/Scenes/MinimumDemo.unity
-    guid: a490636f8f553fa4ca906067cf6c9fa7
   m_configObjects: {}

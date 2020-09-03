@@ -7,8 +7,8 @@ public class GameController : MonoBehaviour
     private string filePath = Application.streamingAssetsPath + "/BDCondecorados.txt";
     private string result = "";
 
-    public string[][] dataPlayers = new string[1309][];
-    private string[] dataList = new string[1309];
+    public string[][] dataPlayers = new string[1444][];
+    private string[] dataList = new string[1444];
 
     public int userID;
 
@@ -42,7 +42,7 @@ public class GameController : MonoBehaviour
     void LoadData()
     {
         string[] a = result.Split('/');
-        for (int i = 0; i < dataPlayers.Length; i++)
+        for (int i = 0; i < dataList.Length; i++)
         {
             dataList[i] = a[i];
         }
