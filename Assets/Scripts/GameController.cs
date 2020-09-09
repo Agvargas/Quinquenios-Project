@@ -52,6 +52,11 @@ public class GameController : MonoBehaviour
             dataPlayers[i] = dataList[i].Split(';');
         }
     }
+
+    public void VideoPlayer()
+    {
+        Application.ExternalCall("trigger_streaming", "m-streaming");
+    }
 }
 
 
