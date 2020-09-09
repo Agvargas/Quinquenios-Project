@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: e190dcd869c80d04db2970135e9dbb4b
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ISOTIPO
+    second: {fileID: 2100000, guid: 84a90ce8a70ca9446ab1cc1ab227f1e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ISOTIPO en blanco
+    second: {fileID: 2100000, guid: ce7b474fde60a0241bc96d8d01a3d4c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _AZUL CLARO
+    second: {fileID: 2100000, guid: 82d6390ced155ed4ebc5e18963b05620, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _AZUL OSCURO
+    second: {fileID: 2100000, guid: c23f71b4b2f0aac49b3e4375e15373d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _AZUL OSCURO_2
+    second: {fileID: 2100000, guid: b1f7453e8fea6234e8eb62656fbf275a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Aluminum_Bumpy_5cm
+    second: {fileID: 2100000, guid: 7dcdaca0b48c2934982fc8d34ffccd49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Aluminum_Bumpy_5cm_2
+    second: {fileID: 2100000, guid: 1bec6b3bddcdbf243b65e26568d89bfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Aluminum_Bumpy_5cm_3
+    second: {fileID: 2100000, guid: 1cc0fdc0d842f30479506d5900998392, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKIING ESCENARIO DERECHO
+    second: {fileID: 2100000, guid: 2e6ee379ae57b2847a55ec7d2bf6076d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING 3D
+    second: {fileID: 2100000, guid: 96413c34aa1c8544995aff7dbc5a4198, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING DE FOTOS LARGO 2
+    second: {fileID: 2100000, guid: 4e7100c027d6bf0458cc3d0c059ee063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING DE LOBBY
+    second: {fileID: 2100000, guid: 30712373053b8ce4d8887e880abde9b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING ESCENARIO IZQUIERDO
+    second: {fileID: 2100000, guid: e2b646fac15d3a74988c955f13052f3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING FOTOS LARGO
+    second: {fileID: 2100000, guid: 1e989e525a4f95e46a4b7fff559edba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING PARA REGISTRO 1
+    second: {fileID: 2100000, guid: 92031f7ad07f039408f86ce689742e08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING PASILLO 1
+    second: {fileID: 2100000, guid: ff31e11bd4c9f6749b17766e4adfb142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING PASILLO 1.2
+    second: {fileID: 2100000, guid: 4cd46982a9699c54dbb6ceefcfaa248b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BACKING ULTIMO PASILLO 2
+    second: {fileID: 2100000, guid: 366e768ff6141254a8284664ab1598ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BANDERINES
+    second: {fileID: 2100000, guid: 5c496c5b31d69984285b990d335d7e81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _BLANCO
+    second: {fileID: 2100000, guid: 05d233c49a35ed2499f9660ac08a86bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO HORIZONTAL 10 A\xD1OS"
+    second: {fileID: 2100000, guid: db9c761df34c0b34b94c9c970e1637a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO HORIZONTAL 15 A\xD1OS"
+    second: {fileID: 2100000, guid: 63966bcd122bde74389f52ee4e779933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO HORIZONTAL 20 A\xD1OS"
+    second: {fileID: 2100000, guid: e9773da1360c2424e85f5634aa16f163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO HORIZONTAL 25  A\xD1OS"
+    second: {fileID: 2100000, guid: 419d8fecbfa2475409b30c3b93e82ef2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO HORIZONTAL 30-40 A\xD1OS"
+    second: {fileID: 2100000, guid: fdf5553b9b7f8634c94a97a0b93d30a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO HORIZONTAL 5 A\xD1OS"
+    second: {fileID: 2100000, guid: 667988e7c301e864fbd347a1c3070a51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO VERTICAL 15 A\xD1OS"
+    second: {fileID: 2100000, guid: b97240463b9a2ec4c93a49f6c978ce0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO VERTICAL 20 A\xD1OS"
+    second: {fileID: 2100000, guid: bba1dab95abe4024aa7769b9be91aff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO VERTICAL 30 - 40 A\xD1OS"
+    second: {fileID: 2100000, guid: 19b76765d21ac114ead1da4f50851ffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_CERRAMIENTO VERTICAL 5 A\xD1OS"
+    second: {fileID: 2100000, guid: 5bc99a071f3961340b31cfbb5aa3cb18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _CUBO 1
+    second: {fileID: 2100000, guid: 2ef2da436610c8a499df7af2340464e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _CUBO 2
+    second: {fileID: 2100000, guid: ad56fac3c2c6ef543a66ee3f55de6a30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _CUBO 3
+    second: {fileID: 2100000, guid: af7abf8ee8b53354898579e83999f255, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _CUBO 4
+    second: {fileID: 2100000, guid: 214329a4dea05de428d8533227aa22ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Emissive
+    second: {fileID: 2100000, guid: a073b860900dae04cb542ec6e76fdb55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Emissive#2
+    second: {fileID: 2100000, guid: d0062d00866baab4b8e60f4ecbb95ab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Glass_Window_Neutral
+    second: {fileID: 2100000, guid: 3353512627aa60541adca39fb30f940e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _LUZ AZUL CLARO
+    second: {fileID: 2100000, guid: c64dd3f0432045743af16edc6ec50a69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _LUZ AZUL CLARO 2
+    second: {fileID: 2100000, guid: d6abf75dde2223d4bb12d46631ced6e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Laminate_C02_120cm
+    second: {fileID: 2100000, guid: 87070f09d088e9546bd4565f94531f97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_PENDON 10 A\xD1OS"
+    second: {fileID: 2100000, guid: fba52f428d0255341ae0123b1faf815e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_PENDON 15 A\xD1OS"
+    second: {fileID: 2100000, guid: 9af8ba818d2642342a5e5159df632a1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_PENDON 20 A\xD1OS"
+    second: {fileID: 2100000, guid: 01b4f46a46a97e042b7ba56e480379e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_PENDON 25 A\xD1OS"
+    second: {fileID: 2100000, guid: bac730882d491014b950b7f259f63a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_PENDON 35 A\xD1OS"
+    second: {fileID: 2100000, guid: be03f84b78cc9fe4594ef1edf0a69fe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_PENDON 40 A\xD1OS"
+    second: {fileID: 2100000, guid: 332cc0b5d0e28d64f8be6adc8cbfd734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_PENDON 5 A\xD1OS"
+    second: {fileID: 2100000, guid: 7ab13f6ca18420845a8b019cd0f13bb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _PLANT
+    second: {fileID: 2100000, guid: 555efc643a1b4954dafa1d559333bf84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _PORTICO SUPERIOR
+    second: {fileID: 2100000, guid: 51a9931bfeb93214999f2a3598a6f54b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _PORTICO VERTICAL 1
+    second: {fileID: 2100000, guid: 8d248ff264e81624fab6c1bba745cf35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _PORTICO VERTICAL 2
+    second: {fileID: 2100000, guid: 394251ae59e89654a8bfd9e1dc4704ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TRIPTICO 1 A
+    second: {fileID: 2100000, guid: 343c9ae8fec2d7e49a789879869a2964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TRIPTICO 1 B
+    second: {fileID: 2100000, guid: e9b5667bb68b9bd47830f7b419b667c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TRIPTICO 1 C
+    second: {fileID: 2100000, guid: 8f0f46d318b0ccc498a0eeb3801fdbc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TRIPTICO 2 A
+    second: {fileID: 2100000, guid: 74cc9f0cca24f014388880fec6ff1460, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TRIPTICO 2 B
+    second: {fileID: 2100000, guid: e465033f8b2a0ee43b2cc1d49ee1be08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _TRIPTICO 2 C
+    second: {fileID: 2100000, guid: ba48e73ae55926d40bd22f7b183a5974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_cerramiento VERTICAL 25 A\xD1OS"
+    second: {fileID: 2100000, guid: 0d2292bf709ced94faded8de1a74b336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _degrade azul
+    second: {fileID: 2100000, guid: b1812a6f068008b478eba52d2b3abab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _madera para silla
+    second: {fileID: 2100000, guid: 7e727f6b8756bb84dbde42a03f6a3440, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _madera para silla_2
+    second: {fileID: 2100000, guid: 5b76475a166245847bb074a2299c29c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _madera titulos salones
+    second: {fileID: 2100000, guid: aa434fbe02dedcf4b9c0f962ac9172f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_pendon 30 A\xD1OS"
+    second: {fileID: 2100000, guid: b23f4fbafee7bc6448c7e38cb6c779b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert10
+    second: {fileID: 2100000, guid: 73e5082e3470fb9468b759360f43e03e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert11
+    second: {fileID: 2100000, guid: c9f419af315448e4ea61a2a2a20b8aaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert12
+    second: {fileID: 2100000, guid: 672ae975610a4d44495a3e00dd2dad90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: b0e088259ec19924c81fe81574d43aee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: e573c7ecc4242da49830e3db5aa343e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 1db9a827214d3554486657551ce95458, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert6
+    second: {fileID: 2100000, guid: 6fa6fdea88b25d64182a0596c67b448c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert7
+    second: {fileID: 2100000, guid: abbdcc1a25dd04b45911fb6904a2b09d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert8
+    second: {fileID: 2100000, guid: 64fe363dc48e6024c990129bf2d10af5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert9
+    second: {fileID: 2100000, guid: 9dd43c83ec2c734418a42f2694d2b6c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 084152a38e72cdb4ab209268b00b7b2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: quinquenios para centro de mesa
+    second: {fileID: 2100000, guid: f806f8fb766327645875d00b269f067a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textura_atril
+    second: {fileID: 2100000, guid: 29bb2dbbf3252bb4a8f4e035f5c99b07, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1
+    second: {fileID: 2800000, guid: 0c8e7e009e47f904987ba9545075c8a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10
+    second: {fileID: 2800000, guid: a151d2d6abfa8664d89ca44f514bb49f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 15
+    second: {fileID: 2800000, guid: a4b3b17c8bfa2c7409aa5e5645f3e2de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2
+    second: {fileID: 2800000, guid: 11c753dcf7cf0ba45ba6fc50dc3d3eca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20
+    second: {fileID: 2800000, guid: d42301cb582d5e94ea4832261d0e21cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 25
+    second: {fileID: 2800000, guid: 5484c8e7437702c4e997efd41a71bbda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3
+    second: {fileID: 2800000, guid: 613283f54637a514e96c6e8539c32e94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 30
+    second: {fileID: 2800000, guid: e8a6aa025bb2c2e46a12dadaa3305b57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 35
+    second: {fileID: 2800000, guid: e6b304c326209eb4ab3709d40c0d3642, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 40
+    second: {fileID: 2800000, guid: b7fa359eef5c3914bbca1d8a60e93030, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 5
+    second: {fileID: 2800000, guid: ffac0c46471518f468951758bc010cc3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 70df7eb8470ff154559e70fc37ff9460
+    second: {fileID: 2800000, guid: 846673a2cd9a53f499830a92c5b15aaf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Alistonado_Pino_Insignis
+    second: {fileID: 2800000, guid: c9dd90023c8884249ac12b687fa50510, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_B_Diff
+    second: {fileID: 2800000, guid: 34a2ca07cc839ca4585ab8cacbbd7e2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BACKING CENTRAL FOTOS
+    second: {fileID: 2800000, guid: 2bc1536e3a216114d9d2fffdf1865844, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BACKING DE ENTRADA
+    second: {fileID: 2800000, guid: 324d0b90301072f47a41efe4cb246b5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BACKING DE FOTOS largoooo
+    second: {fileID: 2800000, guid: adfb7ded86cbd9742a8a5cf12f95a09f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BACKING LETRAS
+    second: {fileID: 2800000, guid: 46c7c65ffe381b54681868ce66a9b4c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BACKING LOGO
+    second: {fileID: 2800000, guid: ea69ec3a1136d5d4083d2338a7247c37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BACKING QUINQUENIOS 3D
+    second: {fileID: 2800000, guid: f17a13a7c2ce695469fb55fa45716bad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BACKING-REGISTRO-FINAL.jpg
+    second: {fileID: 2800000, guid: c6fad491bb936e44c848900502ac224c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BANDERINES_Mesa de trabajo 1
+    second: {fileID: 2800000, guid: c33e2478aa812c24ea871a2f40b5515f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CUBO 1
+    second: {fileID: 2800000, guid: c70ead53656e1494fa9949f38288711a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CUBO 2
+    second: {fileID: 2800000, guid: e505a85e18f426e428e2afda56080058, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CUBO 3
+    second: {fileID: 2800000, guid: 5a8423ad3b8a9a340bdb7f95896c572a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CUBO 4
+    second: {fileID: 2800000, guid: 40b388e6acdd4084e8a0d78c4c4b3bce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Granite_Bump
+    second: {fileID: 2800000, guid: e5ee11dec06f7154488328057e9907d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Granite_H_Diff
+    second: {fileID: 2800000, guid: 366166ff1248bcd46831b5b3e7746b5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: H 10 anos
+    second: {fileID: 2800000, guid: f2dd61abc138a13468855a2836061b3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: H 15 anos
+    second: {fileID: 2800000, guid: 996b49624896b8049ba7825170564420, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: H 20 anos
+    second: {fileID: 2800000, guid: d5006bd181981fe498d4d74c86f2de22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: H 25 anos
+    second: {fileID: 2800000, guid: f06b1394204315d4bb836245f92d989f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: H 30 35 40 anos
+    second: {fileID: 2800000, guid: d3ea602aaba9dba4197d2756a88a85b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: H 5 anos
+    second: {fileID: 2800000, guid: a1e6931ca83e4ec4289ac8e2c7c2fe68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ISOTIPO
+    second: {fileID: 2800000, guid: 9c2ac1b8b188a2d4684decbecdfee4e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ISOTIPO en blanco
+    second: {fileID: 2800000, guid: 54521481170916d45acb14e85b524a03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Laminate_A_Bump
+    second: {fileID: 2800000, guid: 56c616cbf38fb1d4d8936c70d6ea77cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Laminate_C02_Diff
+    second: {fileID: 2800000, guid: 563b01cfc2b18694783b4de1c47d02ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PANTALLA ESCENARIO PRINCIPAL
+    second: {fileID: 2800000, guid: 99e4748f5f9635b4f9195a1237a590fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PARED osura
+    second: {fileID: 2800000, guid: 529804e3f36eca74a8a4831946de8d75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PISO BUMP TAPETE
+    second: {fileID: 2800000, guid: 7fd882862857a7d419aafce9dfde25a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TEXTURA DEGRADE
+    second: {fileID: 2800000, guid: 8530fabb881358744953eed7e3661e17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ULTIMO BACKING
+    second: {fileID: 2800000, guid: 126b79fc0ad609140bddbc0f5bfabfe4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: V 10 anos
+    second: {fileID: 2800000, guid: f705576ba3bffef46a1324f2a9f0210d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: V 15 anos
+    second: {fileID: 2800000, guid: 51cb3f39c07e07e42a726c0ac231ff83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: V 20 anos
+    second: {fileID: 2800000, guid: 7836469fdf93a78429ff539c3b0403e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: V 25 anos
+    second: {fileID: 2800000, guid: 404d7fa073c6db042972343c13ef9c81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: V 30 35 40 anos
+    second: {fileID: 2800000, guid: 19ec513040ead484ca8a4da0b0b5a7bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: V 5 anos
+    second: {fileID: 2800000, guid: e3d482cdfc6b99d4aafcb90a7c6b8e8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: backing pasillo 1
+    second: {fileID: 2800000, guid: 62f05df1391adbb45b138dd238b8b68d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: depositphotos_10740686-stock-photo-fresh-tree-leaf-texture
+    second: {fileID: 2800000, guid: 6469e17c99519ed42a6402b7db3390c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pantalla-registro
+    second: {fileID: 2800000, guid: 103059f3fad17e7489b11784b6b220e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portico derecho
+    second: {fileID: 2800000, guid: 92222522f7e998d4d92edba9ae5b6359, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portico izquierdo
+    second: {fileID: 2800000, guid: 55451958a50781548beafd5dbb5d1dcb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: portico superior
+    second: {fileID: 2800000, guid: 6ba7db1ad57f012469c0de5a3afca815, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: quinquenios para centro de mesa
+    second: {fileID: 2800000, guid: 4a7795c240349414e9a74cc2cfb11e42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: registro 1
+    second: {fileID: 2800000, guid: 9b5c2d8d4255ba541b3f9f5cc9718c13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tapete gris cubos 3
+    second: {fileID: 2800000, guid: 81ee9fe5db94a554ca4cb9695a1de7ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: textura_atril
+    second: {fileID: 2800000, guid: 50e5d032a83253a418ae5beae5087b36, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
