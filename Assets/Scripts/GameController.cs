@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     private string[] dataList = new string[1444];
 
     public int userID;
+    public int personID;
 
     void Awake()
     {
@@ -56,6 +57,33 @@ public class GameController : MonoBehaviour
     public void VideoPlayer()
     {
         Application.ExternalCall("trigger_streaming", "m-streaming");
+
+        print("play video!!!");
+    }
+
+    public void ActiveMessenger()
+    {
+        StartCoroutine(Messenger("https://www.quinqueniosfgs.com/app/mensajes.php"));
+    }
+
+    IEnumerator Messenger(string a)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("idusuario_de", userID);
+        form.AddField("idusuario_para", personID);
+        form.AddField("accesskey", "g67HsR1ockT5dsF");
+        WWW w = new WWW(a, form);
+        yield return w;
+        
+        print(w.text);
+        print("id_de_: " + userID);
+        print("id_para_: " + personID);
+
+        if (w.error != null)
+        {
+            //problemas 
+            print(w.error);
+        }
     }
 }
 

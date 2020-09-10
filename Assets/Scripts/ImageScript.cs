@@ -3,9 +3,10 @@
 public class ImageScript : MonoBehaviour
 {
     public ContentHeightScript contentScript;
+    public string personID;
 
     public void SendMessage()
     {
-        contentScript.UpdateImage(name);
+        contentScript.UpdateImage(name, personID);
     }
 }

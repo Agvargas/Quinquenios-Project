@@ -1,6 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class ContentHeightScript : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class ContentHeightScript : MonoBehaviour
                     photo.name = data.dataPlayers[i][0];
                     photo.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/" + year + "/" + data.dataPlayers[i][0]);
                     photo.GetComponent<ImageScript>().contentScript = GetComponent<ContentHeightScript>();
+                    photo.GetComponent<ImageScript>().personID = data.dataPlayers[i][5];
                 }
             }
             else if (data.dataPlayers[i][4] == year)
@@ -34,6 +36,7 @@ public class ContentHeightScript : MonoBehaviour
                 photo.name = data.dataPlayers[i][0];
                 photo.GetComponent<Image>().sprite = Resources.Load<Sprite>("Sprites/" + year + "/" + data.dataPlayers[i][0]);
                 photo.GetComponent<ImageScript>().contentScript = GetComponent<ContentHeightScript>();
+                photo.GetComponent<ImageScript>().personID = data.dataPlayers[i][5];
             }
         }
     }
@@ -70,9 +73,10 @@ public class ContentHeightScript : MonoBehaviour
         }
     }
 
-    public void UpdateImage(string nameImage)
+    public void UpdateImage(string nameImage, string person)
     {
         mainImage.sprite= Resources.Load<Sprite>("Sprites/" + year + "/" + nameImage);
-
+        data.personID = Int32.Parse(person);
+        data.ActiveMessenger();
     }
 }
