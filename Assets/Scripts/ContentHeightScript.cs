@@ -76,7 +76,7 @@ public class ContentHeightScript : MonoBehaviour
     public void UpdateImage(string nameImage, string person)
     {
         mainImage.sprite= Resources.Load<Sprite>("Sprites/" + year + "/" + nameImage);
-        data.personID = Int32.Parse(person);
+        data.personID = person;
         data.ActiveMessenger();
     }
 }

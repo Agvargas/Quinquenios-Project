@@ -15,7 +15,7 @@ public class SignInScript : MonoBehaviour
 
     public void CheckInfo()
     {
-        for (int i = 0; i < 1444; i++)
+        for (int i = 0; i < 1504; i++)
         {
             if (data.dataPlayers[i][0] == nameInput.text)
             {
@@ -27,7 +27,8 @@ public class SignInScript : MonoBehaviour
                         {
                             if (acceptCheck.isOn)
                             {
-                                data.userID = Int32.Parse(data.dataPlayers[i][5]);
+                                data.userID = data.dataPlayers[i][5];
+                                //data.userName = data.dataPlayers[i][0];
                                 blockerCollider.enabled = false;
                                 gameObject.SetActive(false);
                             }

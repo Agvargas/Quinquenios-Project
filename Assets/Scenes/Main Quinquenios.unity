@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 9ab81dbe517797c4ea4b4cd662d9a8e1,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -327,7 +327,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 869139}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 39306615}
+        m_MethodName: VideoPlayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 30
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &869139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1007,7 +1018,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 39306615}
         m_MethodName: VideoPlayer
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1946,8 +1957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb8748310e229a4c9510d92a416e7c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userID: 0
-  personID: 0
+  userID: 
+  personID: 
 --- !u!1 &40472589
 GameObject:
   m_ObjectHideFlags: 0
@@ -5627,7 +5638,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 231675780}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 39306615}
+        m_MethodName: VideoPlayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &231675780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9035,7 +9057,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 422883556}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 39306615}
+        m_MethodName: VideoPlayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 15
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &422883556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11574,7 +11607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &555208778
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16695,7 +16728,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 852565509}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 39306615}
+        m_MethodName: VideoPlayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &852565509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17507,7 +17551,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 893824050}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 39306615}
+        m_MethodName: VideoPlayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 25
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &893824050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25020,7 +25075,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1291401563}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 39306615}
+        m_MethodName: VideoPlayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 20
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1291401563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38104,6 +38170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 20}
   m_CubeMeshRenderer: {fileID: 2058366992}
+  data: {fileID: 0}
   ui: {fileID: 136480329}
   ApplicationPath: 1
   SubFolderName: MyImages

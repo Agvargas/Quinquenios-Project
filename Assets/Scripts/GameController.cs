@@ -7,11 +7,12 @@ public class GameController : MonoBehaviour
     private string filePath = Application.streamingAssetsPath + "/BDCondecorados.txt";
     private string result = "";
 
-    public string[][] dataPlayers = new string[1444][];
-    private string[] dataList = new string[1444];
+    public string[][] dataPlayers = new string[1504][];
+    private string[] dataList = new string[1504];
 
-    public int userID;
-    public int personID;
+    public string userID;
+    //public string userName;
+    public string personID;
 
     void Awake()
     {
@@ -54,10 +55,34 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public void VideoPlayer()
+    public void VideoPlayer(int a)
     {
-        Application.ExternalCall("trigger_streaming", "m-streaming");
-
+        switch (a)
+        {
+            case 0:
+                Application.ExternalCall("trigger_streaming", "m-streaming");
+                break;
+            case 5:
+                Application.ExternalCall("trigger_cinco", "m-cinco");
+                break;
+            case 10:
+                Application.ExternalCall("trigger_diez", "m-diez");
+                break;
+            case 15:
+                Application.ExternalCall("trigger_quince", "m-quince");
+                break;
+            case 20:
+                Application.ExternalCall("trigger_veinte", "m-veinte");
+                break;
+            case 25:
+                Application.ExternalCall("trigger_veinticinco", "m-veinticinco");
+                break;
+            case 30:
+                Application.ExternalCall("trigger_treinta", "m-treinta");
+                break;
+            default:
+                break;
+        }
         print("play video!!!");
     }
 
@@ -81,9 +106,11 @@ public class GameController : MonoBehaviour
 
         if (w.error != null)
         {
-            //problemas 
+            //problems 
             print(w.error);
         }
+
+        Application.ExternalCall("trigger_muro", userID, personID, "g67HsR1ockT5dsF");
     }
 }
 
