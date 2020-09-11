@@ -57,8 +57,8 @@ public class MinimumDemo : MonoBehaviour
     {
         print("Start save...");
         // Example: Save to Application data path
-        savePath = SDev.FileSaveUtil.Instance.SaveTextureAsJPG(texture2D, ApplicationPath, SubFolderName, FileName);
-        print("Result - Texture resolution: " + texture2D.width + " x " + texture2D.height + "\nSaved at: " + savePath);
+        //savePath = SDev.FileSaveUtil.Instance.SaveTextureAsJPG(texture2D, ApplicationPath, SubFolderName, FileName);
+        //print("Result - Texture resolution: " + texture2D.width + " x " + texture2D.height + "\nSaved at: " + savePath);
         //ui.text = "Result - Texture resolution: " + texture2D.width + " x " + texture2D.height + "\nSaved at: " + savePath;
         // Example: Save to mobile device gallery(iOS/Android). <- Requires Mobile Media Plugin (Included in Screenshot Helper Plus, and SwanDev GIF Assets)
         //MobileMedia.SaveImage(texture2D, SubFolderName, FileName, MobileMedia.ImageFormat.JPG);
@@ -69,19 +69,19 @@ public class MinimumDemo : MonoBehaviour
 
     IEnumerator UploadImage(string a)
     {
-        WWW localFile = new WWW(savePath);
-        yield return localFile;
+        //WWW localFile = new WWW(savePath);
+        //yield return localFile;
         print("Start upload...");
         WWWForm form = new WWWForm();
         form.AddField("idusuario_de", data.userID);
         form.AddField("accesskey", "g67HsR1ockT5dsF");
-        form.AddBinaryData("userfile", localFile.bytes, data.userID + "_Quinquenios_2020.jpg", "image/jpg");
+        form.AddBinaryData("userfile", bytes, data.userID + "_Quinquenios_2020.jpg", "image/jpg");
         WWW w = new WWW(a, form);
         yield return w;
 
         print(w.text);
         print("id_de_: " + data.userID);
-        print("nombre_imagen_: " + data.userID + "_Quinquenios_2020.png");
+        print("nombre_imagen_: " + data.userID + "_Quinquenios_2020.jpg");
 
         if (w.error != null)
         {
