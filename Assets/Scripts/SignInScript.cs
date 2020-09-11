@@ -15,7 +15,7 @@ public class SignInScript : MonoBehaviour
 
     public void CheckInfo()
     {
-        for (int i = 0; i < 1504; i++)
+        for (int i = 0; i < 1503; i++)
         {
             if (data.dataPlayers[i][0] == nameInput.text)
             {

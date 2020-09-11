@@ -8,6 +8,7 @@ public class MinimumDemo : MonoBehaviour
     public MeshRenderer m_CubeMeshRenderer;
     public GameController data;
     private byte[] bytes;
+    private string savePath;
 
     public Text ui;
 
@@ -35,6 +36,7 @@ public class MinimumDemo : MonoBehaviour
 
     public void CaptureWithCamera()
     {
+        print("Star capture");
         ScreenshotHelper.iCaptureWithCamera(m_Camera, (texture2D) =>
         {
             // Clear the old texture if exist.
@@ -45,29 +47,35 @@ public class MinimumDemo : MonoBehaviour
 
             // Set the new (captured) screenshot texture to the cube renderer.
             m_CubeMeshRenderer.material.mainTexture = texture2D;
-
+            print("Captured... send to save...");
             SaveTexture(texture2D);
+
         });
     }
 
     private void SaveTexture(Texture2D texture2D)
     {
+        print("Start save...");
         // Example: Save to Application data path
-        //string savePath = SDev.FileSaveUtil.Instance.SaveTextureAsJPG(texture2D, ApplicationPath, SubFolderName, FileName);
-        //Debug.Log("Result - Texture resolution: " + texture2D.width + " x " + texture2D.height + "\nSaved at: " + savePath);
+        savePath = SDev.FileSaveUtil.Instance.SaveTextureAsJPG(texture2D, ApplicationPath, SubFolderName, FileName);
+        print("Result - Texture resolution: " + texture2D.width + " x " + texture2D.height + "\nSaved at: " + savePath);
         //ui.text = "Result - Texture resolution: " + texture2D.width + " x " + texture2D.height + "\nSaved at: " + savePath;
         // Example: Save to mobile device gallery(iOS/Android). <- Requires Mobile Media Plugin (Included in Screenshot Helper Plus, and SwanDev GIF Assets)
         //MobileMedia.SaveImage(texture2D, SubFolderName, FileName, MobileMedia.ImageFormat.JPG);
-        bytes = texture2D.EncodeToPNG();
-        StartCoroutine(Messenger("https://www.quinqueniosfgs.com/app/mensajes.php"));
+        bytes = texture2D.EncodeToJPG();
+        print("send to upload...");
+        StartCoroutine(UploadImage("https://www.quinqueniosfgs.com/app/uploadimg.php"));
     }
 
-    IEnumerator Messenger(string a)
+    IEnumerator UploadImage(string a)
     {
+        WWW localFile = new WWW(savePath);
+        yield return localFile;
+        print("Start upload...");
         WWWForm form = new WWWForm();
         form.AddField("idusuario_de", data.userID);
         form.AddField("accesskey", "g67HsR1ockT5dsF");
-        form.AddBinaryData("userfile", bytes, data.userID + "_Quinquenios_2020.png", "image/png");
+        form.AddBinaryData("userfile", localFile.bytes, data.userID + "_Quinquenios_2020.jpg", "image/jpg");
         WWW w = new WWW(a, form);
         yield return w;
 

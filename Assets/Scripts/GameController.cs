@@ -7,8 +7,8 @@ public class GameController : MonoBehaviour
     private string filePath = Application.streamingAssetsPath + "/BDCondecorados.txt";
     private string result = "";
 
-    public string[][] dataPlayers = new string[1504][];
-    private string[] dataList = new string[1504];
+    public string[][] dataPlayers = new string[1503][];
+    private string[] dataList = new string[1503];
 
     public string userID;
     //public string userName;

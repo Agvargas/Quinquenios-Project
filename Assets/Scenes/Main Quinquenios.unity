@@ -15462,6 +15462,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9024029571409773125, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e190dcd869c80d04db2970135e9dbb4b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15517,10 +15522,75 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8310374239255030168, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6038356813878249959, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -5288737779756520630, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2601579116323793055, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2232357623076178710, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1991781949921808769, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -539579499996412121, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 453196039663293920, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e190dcd869c80d04db2970135e9dbb4b,
         type: 3}
       propertyPath: m_Name
       value: FBX_super_op_quinquenios_07_09_2020
+      objectReference: {fileID: 0}
+    - target: {fileID: 2360341451218841345, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7068007018042998058, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7138111229462038328, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8512112729543218121, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570121362485782243, guid: e190dcd869c80d04db2970135e9dbb4b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e190dcd869c80d04db2970135e9dbb4b, type: 3}
@@ -38172,7 +38242,7 @@ MonoBehaviour:
   m_CubeMeshRenderer: {fileID: 2058366992}
   data: {fileID: 0}
   ui: {fileID: 136480329}
-  ApplicationPath: 1
+  ApplicationPath: 0
   SubFolderName: MyImages
   FileName: Quinquenios
 --- !u!1 &2084171145
