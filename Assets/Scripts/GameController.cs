@@ -7,8 +7,8 @@ public class GameController : MonoBehaviour
     private string filePath = Application.streamingAssetsPath + "/BDCondecorados.txt";
     private string result = "";
 
-    public string[][] dataPlayers = new string[1503][];
-    private string[] dataList = new string[1503];
+    public string[][] dataPlayers;
+    private string[] dataList;
 
     public string userID;
     //public string userName;
@@ -43,16 +43,18 @@ public class GameController : MonoBehaviour
 
     void LoadData()
     {
-        string[] a = result.Split('/');
+        //string[] a = result.Split('/');
+        dataList = result.Split('/');
+        //for (int i = 0; i < a.Length; i++)
+        //{
+        //  dataList = a;
+        //}
+        dataPlayers = new string[dataList.Length][];
         for (int i = 0; i < dataList.Length; i++)
-        {
-            dataList[i] = a[i];
-        }
-
-        for (int i = 0; i < dataPlayers.Length; i++)
         {
             dataPlayers[i] = dataList[i].Split(';');
         }
+        print(dataPlayers.Length);
     }
 
     public void VideoPlayer(int a)
@@ -111,6 +113,11 @@ public class GameController : MonoBehaviour
         }
 
         Application.ExternalCall("trigger_muro", userID, personID, "g67HsR1ockT5dsF");
+    }
+
+    public void ViewerPdf()
+    {
+        Application.ExternalCall("trigger_ppd", "m-ppd");
     }
 }
 

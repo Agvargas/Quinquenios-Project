@@ -8,7 +8,6 @@ public class MinimumDemo : MonoBehaviour
     public MeshRenderer m_CubeMeshRenderer;
     public GameController data;
     private byte[] bytes;
-    private string savePath;
 
     public Text ui;
 
@@ -56,12 +55,6 @@ public class MinimumDemo : MonoBehaviour
     private void SaveTexture(Texture2D texture2D)
     {
         print("Start save...");
-        // Example: Save to Application data path
-        //savePath = SDev.FileSaveUtil.Instance.SaveTextureAsJPG(texture2D, ApplicationPath, SubFolderName, FileName);
-        //print("Result - Texture resolution: " + texture2D.width + " x " + texture2D.height + "\nSaved at: " + savePath);
-        //ui.text = "Result - Texture resolution: " + texture2D.width + " x " + texture2D.height + "\nSaved at: " + savePath;
-        // Example: Save to mobile device gallery(iOS/Android). <- Requires Mobile Media Plugin (Included in Screenshot Helper Plus, and SwanDev GIF Assets)
-        //MobileMedia.SaveImage(texture2D, SubFolderName, FileName, MobileMedia.ImageFormat.JPG);
         bytes = texture2D.EncodeToJPG();
         print("send to upload...");
         StartCoroutine(UploadImage("https://www.quinqueniosfgs.com/app/uploadimg.php"));
@@ -69,8 +62,6 @@ public class MinimumDemo : MonoBehaviour
 
     IEnumerator UploadImage(string a)
     {
-        //WWW localFile = new WWW(savePath);
-        //yield return localFile;
         print("Start upload...");
         WWWForm form = new WWWForm();
         form.AddField("idusuario_de", data.userID);
@@ -87,6 +78,10 @@ public class MinimumDemo : MonoBehaviour
         {
             //problems 
             print(w.error);
+        }
+        else
+        {
+            Application.ExternalCall("download_image", data.userID);
         }
     }
 }
