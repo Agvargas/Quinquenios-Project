@@ -37,7 +37,7 @@ public class GameController : MonoBehaviour
         {
             result = File.ReadAllText(a);
         }
-        print(result);
+        //print(result);
         LoadData();
     }
 
@@ -54,7 +54,7 @@ public class GameController : MonoBehaviour
         {
             dataPlayers[i] = dataList[i].Split(';');
         }
-        print(dataPlayers.Length);
+        //print(dataPlayers.Length);
     }
 
     public void VideoPlayer(int a)
@@ -85,7 +85,7 @@ public class GameController : MonoBehaviour
             default:
                 break;
         }
-        print("play video!!!");
+        //print("play video!!!");
     }
 
     public void ActiveMessenger()
@@ -102,9 +102,9 @@ public class GameController : MonoBehaviour
         WWW w = new WWW(a, form);
         yield return w;
         
-        print(w.text);
-        print("id_de_: " + userID);
-        print("id_para_: " + personID);
+        //print(w.text);
+        //print("id_de_: " + userID);
+        //print("id_para_: " + personID);
 
         if (w.error != null)
         {

@@ -35,7 +35,7 @@ public class MinimumDemo : MonoBehaviour
 
     public void CaptureWithCamera()
     {
-        print("Star capture");
+        //print("Star capture");
         ScreenshotHelper.iCaptureWithCamera(m_Camera, (texture2D) =>
         {
             // Clear the old texture if exist.
@@ -46,7 +46,7 @@ public class MinimumDemo : MonoBehaviour
 
             // Set the new (captured) screenshot texture to the cube renderer.
             m_CubeMeshRenderer.material.mainTexture = texture2D;
-            print("Captured... send to save...");
+            //print("Captured... send to save...");
             SaveTexture(texture2D);
 
         });
@@ -54,9 +54,9 @@ public class MinimumDemo : MonoBehaviour
 
     private void SaveTexture(Texture2D texture2D)
     {
-        print("Start save...");
+        //print("Start save...");
         bytes = texture2D.EncodeToJPG();
-        print("send to upload...");
+        //print("send to upload...");
         StartCoroutine(UploadImage("https://www.quinqueniosfgs.com/app/uploadimg.php"));
     }
 
@@ -70,9 +70,9 @@ public class MinimumDemo : MonoBehaviour
         WWW w = new WWW(a, form);
         yield return w;
 
-        print(w.text);
-        print("id_de_: " + data.userID);
-        print("nombre_imagen_: " + data.userID + "_Quinquenios_2020.jpg");
+        //print(w.text);
+        //print("id_de_: " + data.userID);
+        //print("nombre_imagen_: " + data.userID + "_Quinquenios_2020.jpg");
 
         if (w.error != null)
         {

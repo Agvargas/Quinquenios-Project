@@ -45,7 +45,7 @@ public class CameraOnUpdateRender : CameraRenderBase
             _onCaptureCallback(_RenderTextureToTexture2D(renderTexture));
             _onCaptureCallback = null;
 #if UNITY_EDITOR
-            Debug.Log("OnUpdateRender - Texture2D * " + _scale);
+            //Debug.Log("OnUpdateRender - Texture2D * " + _scale);
 #endif
         }
         else if (_onCaptureCallbackRTex != null)
@@ -53,7 +53,7 @@ public class CameraOnUpdateRender : CameraRenderBase
             _onCaptureCallbackRTex(renderTexture);
             _onCaptureCallbackRTex = null;
 #if UNITY_EDITOR
-            Debug.Log("OnUpdateRender - RenderTexture * " + _scale);
+            //Debug.Log("OnUpdateRender - RenderTexture * " + _scale);
 #endif
         }
     }

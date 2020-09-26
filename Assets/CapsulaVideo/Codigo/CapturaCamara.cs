@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class CapturaCamara : MonoBehaviour
@@ -42,7 +40,7 @@ public class CapturaCamara : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("activo camara");
+            //Debug.Log("activo camara");
             ActivarCamara();
         }
     }
@@ -62,7 +60,7 @@ public class CapturaCamara : MonoBehaviour
     public void PararCamara()
     {
         backCam.Stop();
-        Debug.Log("Paro camara");
+        //Debug.Log("Paro camara");
     }
 
     public void ComenzarCamara()

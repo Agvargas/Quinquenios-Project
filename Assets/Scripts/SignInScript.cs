@@ -22,19 +22,19 @@ public class SignInScript : MonoBehaviour
         {
             if (data.dataPlayers[i][0] == nameInput.text)
             {
-                print("ok1");
+                //print("ok1");
                 if (data.dataPlayers[i][1] == idInput.text)
                 {
-                    print("ok2");
+                    //print("ok2");
                     if (data.dataPlayers[i][2] == bussinesInput.text)
                     {
-                        print("ok3");
+                        //print("ok3");
                         if (data.dataPlayers[i][3] == cityInput.text)
                         {
-                            print("ok4");
+                            //print("ok4");
                             if (acceptCheck.isOn)
                             {
-                                print("ok5");
+                                //print("ok5");
                                 wrongImage.SetActive(false);
                                 data.userID = data.dataPlayers[i][5];
                                 //data.userName = data.dataPlayers[i][0];
@@ -44,31 +44,31 @@ public class SignInScript : MonoBehaviour
                             }
                             else
                             {
-                                print("wrong5");
+                                //print("wrong5");
                                 wrongImage.SetActive(true);
                             }
                         }
                         else
                         {
-                            print("wrong4");
+                            //print("wrong4");
                             wrongImage.SetActive(true);
                         }
                     }
                     else
                     {
-                        print("wrong3");
+                        //print("wrong3");
                         wrongImage.SetActive(true);
                     }
                 }
                 else
                 {
-                    print("wrong2");
+                    //print("wrong2");
                     wrongImage.SetActive(true);
                 }
             }
             else
             {
-                print("wrong1");
+                //print("wrong1");
                 wrongImage.SetActive(true);
             }
         }
